@@ -1,0 +1,130 @@
+body {
+	background-color: #000000;
+	margin: 0;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	margin: 0;
+	padding: 15px 0;
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: rgb(0, 0, 0, 50%);
+}
+
+h1 {
+	font-family: CMU Typewriter Text, sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+	width: 200px;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+p {
+	font-family: CMU Typewriter Text, sans-serif;
+	font-size: 30px;
+	color: white;
+	margin: 0;
+}
+
+#naslov {
+	margin-left: 20px;
+}
+
+#meni {
+	justify-self: end;
+	margin-right: 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: gray;
+}
+
+h2 {
+	font-family: CMU Typewriter Text, sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: white;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+main {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 40px;
+	max-width: 1700px;
+	margin: 14vh 4vw;
+	padding: 0 40px;
+}
+.projekat img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.projekat:hover {
+	opacity: 0.85;
+	cursor: pointer;
+	transition-duration: 160ms;
+}
+footer {
+	text-align: center;
+	margin: 30px;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: CMU Typewriter Text, sans-serif;
+}
+.galerija{
+  display: flex;  
+  flex-direction: column; 
+  align-items: center;
+ }
+.slika{
+  width: 800px;
+  height: auto;
+  margin-top: 30px;
+}
+.posterslika{
+	width: 700px;
+  height: auto;
+  margin-bottom: 25px;
+}
+.home {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: CMU Typewriter Text, sans-serif;
+}
+.LOGO{
+  width: 1400px;
+  height: auto;
+  margin-top: 30px;
+}
+.rad.page {
+  display: flex;
+  gap: 80px;
+  padding: 100px;
+}
+
+.tekst {
+  width: 500px;
+  font-size: 15p;
+}
+
+.tekst p {
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
