@@ -89,12 +89,13 @@ body {
   align-items: center;
  }
 .slika{
-  width: 800px;
+  width: 700px;
   height: auto;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 .posterslika{
-	width: 700px;
+  width: 700px;
   height: auto;
   margin-bottom: 25px;
 }
@@ -119,12 +120,13 @@ body {
 }
 
 .tekst {
-  width: 500px;
-  font-size: 15p;
+  width: 450px;
+  font-size: 8px;
 }
 
 .tekst p {
   margin-top: 30px;
   line-height: 1.5;
 }
+
 
